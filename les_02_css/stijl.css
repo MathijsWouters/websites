@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+#sec1{
+    font-family: 'Fuggles', cursive;
+    color: #600;
+    background-color: #e6a2a2;
+}
+#sec2{
+    font-family: 'croissant one', 'Courier New', Courier, monospace;
+    color: #004080;
+    background-color: #a2c4e6;
+}
+#sec3{
+    font-family: 'Holtwood One SC';
+    color:#00663d ;
+    background-color: #a2e6c4;
+}
