@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    border: solid 1px ;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border: solid 1px;
+}
+td{
+    border:solid 1px
+}
+.dagen{
+    background-color: rgb(186, 58, 12);
+    color: white;
+    border: solid 1px black;
+    
+}
+.tijd{
+    background-color: rgb(1, 13, 72);
+    width: 75px;
+    color: white;
+}

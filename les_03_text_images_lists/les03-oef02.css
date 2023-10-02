@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2em;
+    color: #fa6432;
+}
+.styled-hr{
+    width: 100%;
+    border: 1px;
+    height: 1px;
+    background-color: #000a1e;
+}
+img{
+    border: 5%;
+    margin: 15px;
+    float: left;
+    opacity: 0.5; 
+    box-shadow: 0px 0px 10px rgba(255, 165, 0, 0);
+    transition: box-shadow 0.3s ease; 
+}
+
+img:hover{
+    opacity: 1;
+    box-shadow: 0px 0px 10px rgba(255, 165, 0, 1);
+}
+    

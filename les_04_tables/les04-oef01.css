@@ -1,0 +1,32 @@
+hr{
+    color:rgb(12, 12, 54) ;
+    border: solid 1px;
+}
+div{
+align-self: center;
+margin: 1rem;
+ } 
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+      
+}
+#entiteit{
+    color: white;
+    background-color: rgb(12, 12, 54);
+}
+th{
+    border: solid 1px gray;
+    padding: 15px;
+}
+td{
+    border: solid 1px gray;
+    padding: 15px;
+    font-weight: bold;
+}
+caption{
+    font-weight: bold;
+}
+
+
