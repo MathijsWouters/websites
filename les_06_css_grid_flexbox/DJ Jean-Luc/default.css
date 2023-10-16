@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: aquamarine;
+  border-bottom:3px solid lightblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li.brand{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(18, 84, 135);
+}
+
+.active {
+  background-color: lightblue;
+}
+/* app */
+
+.app{
+  width: 500px;
+  margin-inline: auto;
+  margin-top: 10px;
+  background-color: aliceblue;
+  
+}
+.content{
+  padding: 1rem;
+}
+
+/* footer */
+.footer{
+  background-color: aquamarine;
+  padding: 1rem;
+  border-top:3px solid lightblue;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px ;
+
+}
+.footer p {
+  text-align: right;
+}

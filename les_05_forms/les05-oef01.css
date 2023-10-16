@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    width: 150px;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; 
+} 
+.input{
+    background-color: lightblue;
+    width: 100%;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+.input:focus{
+    background-color: white;
+}
+.submit{
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: lightgray;
+}
